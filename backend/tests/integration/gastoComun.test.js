@@ -50,7 +50,7 @@ describe('Pruebas de Integración para Endpoints de Gasto Común', () => {
         .send(datosGasto);
 
       expect(res.statusCode).toEqual(201);
-      expect(res.body.mensaje).toBe('✅ Gasto común calculado correctamente.');
+      expect(res.body.mensaje).toBe(' Gasto común calculado correctamente.');
       expect(res.body.gasto_por_m2).toBe("500.00"); // 100000 / 200
     });
 

@@ -69,7 +69,7 @@ const calcularGastoComun = async (req, res) => {
 
 
     res.status(201).json({
-      mensaje: "✅ Gasto común calculado correctamente.",
+      mensaje: " Gasto común calculado correctamente.",
       gastoComunId,
       gasto_por_m2: gastoPorM2.toFixed(2),
     });
